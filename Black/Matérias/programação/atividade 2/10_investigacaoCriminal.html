@@ -12,10 +12,20 @@
 
     //ENTRADA
 
-    const PrimeiraPergunta = prompt()
-    
-    //PROCESSAMENTO
+    const PrimeiraPergunta = prompt("Telefonou para a vítima")
+    const SegundaPergunta = prompt("Esteve no local do crime?")
+    const TerceiraPergunta = prompt("Mora perto da vítima?")
+    const QuartaPergunta = prompt("Devia para a vítima?")
+    const QuintaPergunta = prompt("Já trabalhou com a vítima?")
 
+    //PROCESSAMENTO
+    if(PrimeiraPergunta == "Sim" && SegundaPergunta == "Sim" && TerceiraPergunta == "sim" && QuartaPergunta == "Sim" && QuintaPergunta == "Sim" ){
+        alert("Assasino")
+    }else if(PrimeiraPergunta == "Não" && SegundaPergunta == "Não" && TerceiraPergunta == "Não" && QuartaPergunta == "Não" && QuintaPergunta == "Não"){
+        alert("Inocente")
+    }else if(PrimeiraPergunta == "Sim" && SegundaPergunta == "Sim" && TerceiraPergunta == "sim" && QuartaPergunta == "Sim" && QuintaPergunta == "Sim"){
+
+    }
     
     //SAÍDA
 
