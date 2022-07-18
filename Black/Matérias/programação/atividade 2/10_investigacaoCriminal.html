@@ -17,16 +17,15 @@
     const TerceiraPergunta = prompt("Mora perto da vítima?")
     const QuartaPergunta = prompt("Devia para a vítima?")
     const QuintaPergunta = prompt("Já trabalhou com a vítima?")
-
+    let pessoa = 0
     //PROCESSAMENTO
-    if(PrimeiraPergunta == "Sim" && SegundaPergunta == "Sim" && TerceiraPergunta == "sim" && QuartaPergunta == "Sim" && QuintaPergunta == "Sim" ){
-        alert("Assasino")
-    }else if(PrimeiraPergunta == "Não" && SegundaPergunta == "Não" && TerceiraPergunta == "Não" && QuartaPergunta == "Não" && QuintaPergunta == "Não"){
-        alert("Inocente")
-    }else if(PrimeiraPergunta == "Sim" && SegundaPergunta == "Sim" && TerceiraPergunta == "sim" && QuartaPergunta == "Sim" && QuintaPergunta == "Sim"){
 
+    if (PrimeiraPergunta == "S"||SegundaPergunta == "S"||TerceiraPergunta == "S"||QuartaPergunta == "S"||QuintaPergunta == "S") {
+        let Inocente = Suspeito + 1
+    } else {
+        pessoa
     }
-    
+
     //SAÍDA
 
 
