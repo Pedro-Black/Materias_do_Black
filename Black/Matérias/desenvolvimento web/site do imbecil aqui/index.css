@@ -1,0 +1,94 @@
+body{
+background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+font-size: 75px;
+text-align: center;
+color: #d3ceaa;
+border-bottom: 3px solid #fbf7e4;
+}
+
+p{
+color: #f4e5c2;
+}
+
+ul {
+list-style-type:none;
+margin: -10px 0px 0px -20px;
+padding: 0px;
+border-bottom: 3px solid #a7a0a0;
+overflow: hidden;
+list-style-type: none;
+font-size: 17px;
+font-weight: bolder;
+top: -15px;
+position: sticky;
+background-color: #ffffff
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: rgb(113, 113, 113);;
+text-align: center;
+text-decoration: none;
+padding: 10px 15px;
+}
+
+li a, .dropbtn {
+display: inline-block;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #d4e3e6;
+}
+
+.banner{
+flex-wrap: wrap;
+padding-left: 575px;
+padding-right: 707px;
+width: 10px;
+margin-left: -20px;
+border-bottom:  3px solid #a7a0a0
+}
+
+.primeiras-materias{
+display: grid;
+height: 275px;
+position: relative;
+justify-content: space-between;
+background-color: rgb(190, 190, 190)
+}
+.primeiras-materias > #primeira-imagem{
+height: 250px;
+width: 350px;
+background: #a7a0a0;
+}
+#primeira-imagem{
+height: 250px;
+width: 350px;
+border-radius: 20px;
+position: absolute;
+margin: 20px;
+}
+
+#primeiro-textoIMG {
+font-size: 32px;
+left: 20px;
+margin-left: 400px;
+}
+
+#segunda-imagem{
+    position: absolute
+}
