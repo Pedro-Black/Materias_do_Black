@@ -63,32 +63,37 @@ margin-left: -20px;
 border-bottom:  3px solid #a7a0a0
 }
 
-.primeiras-materias{
+.primeira-materias{
 display: grid;
-height: 275px;
-position: relative;
-justify-content: space-between;
-background-color: rgb(190, 190, 190)
+height: 350px;
+background-color: rgb(243, 0, 0)
 }
-.primeiras-materias > #primeira-imagem{
-height: 250px;
-width: 350px;
-background: #a7a0a0;
+.primeiras-materia:hover:not(.active) {
+background-color: #d4e3e6;
 }
+
 #primeira-imagem{
 height: 250px;
 width: 350px;
-border-radius: 20px;
+border-radius: 0px 0px 20px 20px;
 position: absolute;
-margin: 20px;
 }
 
 #primeiro-textoIMG {
-font-size: 32px;
+font-size: 30px;
 left: 20px;
 margin-left: 400px;
 }
 
+.segunda-materia{
+height: 250px;
+width: 350px;         
+}
+
 #segunda-imagem{
-    position: absolute
+height: 250px;
+width: 350px;
+border-radius: 0px 0px 20px 20px;
+padding-top: 150px;
+position: absolute;
 }
