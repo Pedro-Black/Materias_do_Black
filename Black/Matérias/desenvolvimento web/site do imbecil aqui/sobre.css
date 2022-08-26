@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
 body{
 background-color: #ffffff;
 }
@@ -9,7 +10,7 @@ a{
 
 #barradenavegacao{
 list-style-type:none;
-margin: -10px -7px 0px -20px;
+margin: -10px -8px 0px -20px;
 padding: 0px 0px 0px 0px;
 border-bottom: 3px solid #a7a0a0;
 overflow: hidden;
@@ -21,6 +22,12 @@ position: sticky;
 background-color: #ffffff
 }
 
+.banner{
+text-align: center;
+margin: 0px -8px 0px -20px;
+border-bottom:  3px solid #a7a0a0
+}
+        
 li {
 float: left;
 }
@@ -35,15 +42,6 @@ text-decoration: none;
 
 li a:hover:not(.active) {
 background-color: #4FEDFF;
-}
-
-.banner{
-flex-wrap: wrap;
-padding-left: 900px;
-padding-right: 1020px;
-width: 10px;
-margin-left: -20px;
-border-bottom:  3px solid #a7a0a0
 }
 
 #texto-principal{
