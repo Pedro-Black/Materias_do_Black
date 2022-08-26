@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
 body{
 background-color: #ffffff;
 }
@@ -49,59 +51,27 @@ background-color: #4FEDFF;
 }
 
 .sub-titulos{
-font-family: 'Cinzel', serif;
 font-size: 50px;
 }
 
-.primeira-materias{
+.materias{
 display: grid;
-height: 250px;
+height: 225px;
 }
 
-.primeira-materia:hover:not(.active) {
+.materias:hover:not(.active) {
 background-color: #bbc9ca;
 }
 
-#primeira-imagem{
+.imagens{
 height: 223px;
 width: 350px;
 border-radius: 0px 0px 20px 20px;
 position:absolute
 }
 
-#primeiro-textoIMG {
+.textosIMG {
 left: 20px;
 margin-left: 375px;
 }
 
-.segunda-materia{
-display: grid;
-height: 223px;
-}
-
-.segunda-materia:hover:not(.active) {
-background-color: #bbc9ca;
-}
-
-#segunda-imagem{
-height: 223px;
-width: 350px;
-border-radius: 0px 0px 20px 20px;
-position:absolute
-}
-
-.terceira-materia{
-display: grid;
-height: 223px;
-}
-
-.terceira-materia:hover:not(.active){
-background-color: #bbc9ca;
-}
-
-#terceira-imagem{
-height: 223px;
-width: 350px;
-border-radius: 0px 0px 20px 20px;
-position:absolute
-}
