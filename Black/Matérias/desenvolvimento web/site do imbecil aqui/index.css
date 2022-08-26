@@ -99,3 +99,48 @@ position: absolute;
 left: 20px;
 margin-left: 375px;
 }
+
+.terceira-materia{
+display: grid;
+height: 250px;
+}
+
+.terceira-materia:hover:not(.active){
+background-color: #bbc9ca;
+}
+
+#terceira-imagem{
+height: 250px;
+width: 350px;
+position: absolute;
+border-radius: 0px 0px 20px 20px;
+position: absolute;   
+}
+
+#terceiro-textoIMG{
+left: 20px;
+margin-left: 375px;
+}
+
+#rodape{
+display: flex;
+height: 150px;
+background-color: #181616;
+}
+
+.textoRODAPE{
+font-size: 45px;
+padding-top: 45px;
+}
+
+.link-central{
+padding-left: 675px;
+font-size: 45px;
+padding-top: 45px;
+}
+
+.link-direito{
+padding-left: 700px;
+font-size: 45px;
+padding-top: 45px;
+}
