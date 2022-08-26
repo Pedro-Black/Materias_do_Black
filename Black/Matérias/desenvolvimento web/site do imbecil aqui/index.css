@@ -12,7 +12,7 @@ p{
 color: #f4e5c2;
 }
 
-#black{
+#barradenavegacao{
 list-style-type:none;
 margin: -10px -15px 0px -20px;
 padding: 0px 0px 0px 0px;
@@ -125,22 +125,25 @@ margin-left: 375px;
 #rodape{
 display: flex;
 height: 150px;
-background-color: #181616;
+background-color: #646060;
 }
 
-.textoRODAPE{
+.link-esquerdo{
 font-size: 45px;
 padding-top: 45px;
+color: #1883F5;
 }
 
 .link-central{
 padding-left: 675px;
 font-size: 45px;
 padding-top: 45px;
+color: #1883F5;
 }
 
 .link-direito{
 padding-left: 700px;
 font-size: 45px;
 padding-top: 45px;
+color: #1883F5;
 }
