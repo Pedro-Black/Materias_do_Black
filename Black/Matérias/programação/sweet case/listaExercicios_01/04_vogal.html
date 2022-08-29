@@ -4,10 +4,29 @@
 
     // ENTRADA
 
-    
+    const letra = prompt("Insira uma letra:").toLocaleUpperCase(0)
+    let saida
     // PROCESSAMENTO
-
-    
+    switch(letra){
+        case "A":
+            saida = "É vogal";
+            break;
+        case "E":
+            saida = "É vogal"
+            break;
+        case "I":
+            saida = "É vogal";
+            break;
+        case "O":
+            saida = "É vogal";
+            break;
+        case "U":
+            saida = "É vogal";
+            break;
+        default:
+            saida = "É consoante";
+            break;
+    }
     // SAÍDA
-
+    document.write(`${saida}`)
 </script>
