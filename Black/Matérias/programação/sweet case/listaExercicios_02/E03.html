@@ -6,12 +6,25 @@
     //Se Técnico em Agropecuária (A): Bloco E!
 
     //ENTRADA
-
-
+    const curso = prompt("Informe seu curso(I:informática||Q:química||A:agropecuária").toLocaleUpperCase(0)
+    let saida
     //PROCESSAMENTO
-
+    switch (curso) {
+        case "I":
+            saida = "Bloco B";
+            break;
+        case "Q":
+            saida = "Bloco D";
+            break;
+        case "A":
+            saida = "Bloco E";
+            break;
+        default:
+            saida = "Invalido"
+            break;
+    }
 
     //SAÍDA
-
+    document.write(`${saida}`)
 
 </script>

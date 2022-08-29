@@ -6,12 +6,25 @@
     //Se Usuário Comum: Bom dia!
 
     //ENTRADA
-
-
+    const usuario = prompt("Informe seu cargo(A:adm|G:gerente|U:usuario comun):").toLocaleUpperCase(0)
+    let saida
     //PROCESSAMENTO
-
+    switch (usuario) {
+        case "A":
+            saida = "Bom dia, Senhor!";
+            break;
+        case "G":
+            saida = "Bom dia, Chefe!";
+            break;
+        case "U":
+            saida = "Bom dia";
+            break;
+        default:
+            saida = "Invalido"
+            break;
+    }
 
     //SAÍDA
-
+    document.write(`${saida}`)
 
 </script>
