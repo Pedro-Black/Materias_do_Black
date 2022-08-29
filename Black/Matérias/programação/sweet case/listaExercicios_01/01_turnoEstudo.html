@@ -11,11 +11,24 @@
     */
 
     //ENTRADA
-    
-    
+    const turno = prompt("Informe o seu turno(M:matutino-V:vespertino-N:noturno):").toLocaleUpperCase(0)
+    let saida;
     //PROCESSAMENTO
-
+    switch (turno) {
+        case "M":
+            saida = "Bom Dia";
+            break;
+        case "V":
+            saida ="Boa Tarde";
+            break;
+        case "N":
+            saida = "Boa Noite";
+            break;
+        default:
+            saida = "Você estuda aqui?"
+            break;
+    }
     
     //SAÍDA
-
+    document.write(`${saida}`)
 </script>
