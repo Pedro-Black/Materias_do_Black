@@ -11,11 +11,18 @@
     //Apresente o valor final do computador e o valor de cada parcela.
 
     //ENTRADA
+    const Preco = parseInt(prompt("Informe o preço do pc:"))
+    const Parcelas = Number(prompt("Informe quantas parcelas você deseja pagar:"))
 
-
+    const Desconto = Preco - (100*(5/100))
+    const Pacelas6 = Preco + (100*(3/100))
+    const Parcelas12 = Preco +(100*(8/100))
+    const ParcelasAcima = Preco + (100*(12/100));
     //PROCESSAMENTO
-
-
+    (Parcelas === 1)? document.write(`O valor do pc: ${Preco}R$ <br> Desconto adicionado: 5% <br> Valor com desconto: ${Desconto}R$`)
+    :(Parcelas <= 6)? document.write(`O valor do pc: ${Preco}R$ <br> Juros adicionado: 3% <br> Valor com juros: ${Pacelas6}R$`)
+    :(Parcelas <= 12)? document.write(`O valor do pc: ${Preco}R$ <br> Juros adicionado: 8% <br> Valor com juros: ${Parcelas12}R$`)
+    : document.write(`O valor do pc: ${Preco}R$ <br> Juros adicionado: 12% <br> Valor com juros: ${ParcelasAcima}R$`);
     //SAÍDA
 
 </script>

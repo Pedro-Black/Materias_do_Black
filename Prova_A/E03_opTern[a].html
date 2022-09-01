@@ -15,11 +15,17 @@
     //Calcule os pontos e apresente o nível de complexidade da prova de planilhas.
 
     //ENTRADA
+    const QuantidadeMAT = Number(prompt("Informe a quantidade de operações que foram necessárias para a execução da prova:"))
+    const QuantidadeSE= Number(prompt("Informe a quantidade de SE que foram necessárias para execução da prova:"))
+    const QuantidadePROCV =Number(prompt("Informe a quantidade de PROCV que foram necessários para a execução da prova:"))
 
-
+    const OperaçõesMAT = QuantidadeMAT * 1.5
+    const SE = QuantidadeSE * 4
+    const PROCV = QuantidadePROCV * 7
+    const Total = OperaçõesMAT + SE + PROCV;
     //PROCESSAMENTO
-
-
+    (Total<=20)? alert("Prova Iniciante")
+    :alert("Prova intemeditária");
     //SAÍDA
 
 </script>

@@ -10,10 +10,27 @@
     //Calcule e apresente o preço final do celular de acordo com a forma de Pagamento.
 
     //ENTRADA
-
+    const Preco = parseInt(prompt("Informe o valor do celular:"))
+    const Pagamento = prompt("Informe a forma de pagamento(PIX|DIN:Dinheiro|BOL:Boleto):").toLocaleUpperCase(0)
 
     //PROCESSAMENTO
-
+    switch (Pagamento) {
+        case "PIX":
+            const DescontoPIX = Preco - (100*(7/100))
+            document.write(`Valor do celular: ${Preco}R$ <br> Desconto: 7% <br> Valor com desconto: ${DescontoPIX}R$`)
+            break;
+        case "DIN":
+            const DescontoDIN = Preco - (100*(5/100))
+            document.write(`Valor do celular: ${Preco}R$ <br> Desconto: 5% <br> Valor com desconto: ${DescontoDIN}R$`)
+            break;
+        case "BOL":
+            const DescontoBOL = Preco - (100*(3/100))
+            document.write(`Valor do celular: ${Preco}R$ <br> Desconto: 3% <br> Valor com desconto: ${DescontoBOL}R$`)
+            break;
+        default:
+            document.write("Não aceitamos cartão :)")
+            break;
+    }
 
     //SAÍDA
 

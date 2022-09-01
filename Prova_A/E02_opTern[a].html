@@ -10,11 +10,17 @@
     //Apresente a situação final do aluno.
 
     //ENTRADA
+    const PrimeiraNota = parseInt(prompt("Informe sua primeira nota:"))
+    const SegundaNota = parseInt(prompt("Informe sua segunda nota:"))
+    const TerceiraNota = parseInt(prompt("Informe sua terceira nota:"))    
 
-
+    const Media = (PrimeiraNota+SegundaNota+TerceiraNota) / 3;
     //PROCESSAMENTO
-
-
+    (Media <= 4 )? alert("O aluno está reprovado")
+    :(Media < 6)? alert("O aluno está em exame")
+    :(Media < 10)? alert("O aluno está aprovado")
+    :(Media === 10)? alert("O aluno é pika das galáxias, parece o professor fábio")
+    :alert("O aluno quebro o sistema");
     //SAÍDA
 
 </script>

@@ -12,10 +12,22 @@
     //DICA: Use HA para Hatch, SE para Sedan, SU para SUV.
 
     //ENTRADA
-
-
+    const Carro = prompt("Informe categoria de carro que deseja compra(HA:Hatch|SE:Sedan|SU:SUV):").toLocaleUpperCase(0)
     //PROCESSAMENTO
-
+    switch (Carro) {
+        case "HA":
+            alert("Carro para menores de 30 anos")
+            break;
+        case "SE":
+            alert("Carro para maiores de 70 anos")
+            break;
+        case "SU":
+            alert("Carro para família")
+            break;
+        default:
+            alert("Categoria de carro inválida")
+            break;
+    }
 
     //SAÍDA
 
