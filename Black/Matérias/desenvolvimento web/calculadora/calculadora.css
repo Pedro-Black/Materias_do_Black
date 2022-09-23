@@ -1,0 +1,16 @@
+#layout{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+}
+
+.botoes{
+    width: 50px;
+    height: 100px;
+}
+
+.numero{
+    height: 30px;
+    width: 30px;
+}
