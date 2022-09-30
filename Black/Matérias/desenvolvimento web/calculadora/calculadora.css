@@ -1,16 +1,15 @@
 #layout{
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
-    width: 90px;
+    width: 250px;
+    height: 150px;
+    gap: 10px;
 }
 
 .botoes{
     width: 50px;
-    height: 100px;
-}
-
-.numero{
     height: 30px;
-    width: 30px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
