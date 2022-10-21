@@ -1,5 +1,5 @@
 form{
-    display: table-cell;
+    display: inline-grid;
     text-align: center;
     border: 1px solid black;
 }
