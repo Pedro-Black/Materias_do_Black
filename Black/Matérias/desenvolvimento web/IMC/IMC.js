@@ -17,7 +17,8 @@ function calcula_IMC() {
         document.getElementById(`resultado-categoria`).className = `sem risco a vida`
     } else if(IMC >= 18.5 && IMC <= 24.9){
         resposta = `Saudável`
-        document.getElementById(`resultado-categoria`).className = `Saudável`
+        document.getElementById(`resultado-categoria`).className = `Saudavel`
+        document.getElementById(`resultado_nome`).innerHTML = `Nome: <br>${nome} <br><br> IMC:<br>${IMC.toFixed(2) }<br><br> Estado: <br>${resposta} `
     }else if ( IMC >= 25 && IMC <= 29.9) {
         resposta = `Sobrepeso`
         document.getElementById(`resultado-categoria`).className = `sem risco`
@@ -31,7 +32,9 @@ function calcula_IMC() {
         resposta = `Obesidade Grau 3 (Mórbida)`
         document.getElementById(`resultado-categoria`).className = `procure ajuda médica`
     }
+        
+    
 
-    document.getElementById(`resultado_nome`).innerHTML = `Nome: ${nome} <br> IMC:${IMC.toFixed(2)} <br> `
+    
     
 }
